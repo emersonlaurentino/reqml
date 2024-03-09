@@ -32,23 +32,23 @@ The .toml extension is extremely common for project configurations and this
 would make it difficult to find TOML files for Requests, so the `.req` extension
 allows you to continue writing in TOML, but with benefits from ReqML.
 
-## Especificação
+## Specification
 
 ### Metadata
 
 The metadata below can be used by endpoints or folders.
 
-`title`: Obrigatório
-`description`: Descreve a pasta ou endpoint
-`parent`: Define qual a pasta
+`title` Required<br />
+`description` Describes the folder or endpoint<br />
+`parent` Defines which folder
 
 ### [request]
 
 This is the main table, where you configure the endpoint, method and body if it
 is POST.
 
-`url`: The API endpoint
-`method`: HTTP Methods
+`url`: The API endpoint<br />
+`method`: HTTP Methods<br />
 `body`: Optional, common used when the method is post, put or patch.
 
 ### [headers]
